@@ -11,6 +11,7 @@ public class Todo {
 	@Id private int id;
 	private String tekst;
 	
+	
 	public Todo() {}
 
 	public Todo(int id, String tekst) {

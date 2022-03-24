@@ -18,7 +18,7 @@ public class TodolisteDAO {
         EntityManager em = emf.createEntityManager();
         try {
         	
-        	/*TODO*/
+        	return em.find(Todoliste.class, id);
         	
         } finally {
             em.close();

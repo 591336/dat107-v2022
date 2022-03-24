@@ -27,6 +27,10 @@ public class Todoliste {
 	public void setNavn(String navn) {
 		this.navn = navn;
 	}
+	
+	public void leggTil(Todo todo) {
+		todos.add
+	}
 
 	@Override
 	public String toString() {
