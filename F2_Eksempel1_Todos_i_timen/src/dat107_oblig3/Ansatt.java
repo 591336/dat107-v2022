@@ -48,4 +48,15 @@ public class Ansatt {
         prosjekter.remove(p);
     }
 
+	public void setStilling(String nyStilling) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void setLoenn(int nyLoenn) {
+		// TODO Auto-generated method stub
+		
+	}
+ 
+
 }
