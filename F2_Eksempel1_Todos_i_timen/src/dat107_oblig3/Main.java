@@ -17,6 +17,7 @@ public class Main {
 			EntityManagerFactory emf = Persistence.createEntityManagerFactory("AnsattProsjektPU");
 			EntityManager em = emf.createEntityManager();
 
+
 			AnsattDAO ansattDAO = new AnsattDAO();
 			ProsjektDAO prosjektDAO = new ProsjektDAO();
 
